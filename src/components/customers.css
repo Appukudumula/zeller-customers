@@ -1,0 +1,55 @@
+body {
+    margin: 2rem;
+  }
+  .users {
+    display: flex;
+    gap: 0.7rem;
+    margin-bottom: 1rem;
+    .first-letter {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      span {
+        background-color: #e8f2fb;
+        color: #0170cd;
+        padding: 0.8rem;
+        font-size: larger;
+        border-radius: 0.5rem;
+      }
+    }
+  
+    .userDetails {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+  h2 {
+    font-weight: 500;
+  }
+  
+  h3,
+  h5 {
+    margin: 0;
+    font-weight: 400;
+  }
+  
+  h3 {
+    margin-bottom: 0.3rem;
+  }
+  
+  h5 {
+    color: grey;
+  }
+  
+  .input-type {
+    div {
+      margin: 0 1rem;
+      padding: 0.6rem 0;
+    }
+    div:hover {
+      background-color: #e8f2fb;
+      border-radius: 0.5rem;
+    }
+  }
